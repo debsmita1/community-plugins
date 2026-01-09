@@ -1,314 +1,314 @@
-workspace/3scale:
-  - "Workspace\\s*3scale"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/3scale:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/3scale"
 
-workspace/acr:
-  - "Workspace\\s*acr"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/acr:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/acr"
 
-workspace/acs:
-  - "Workspace\\s*acs"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/acs:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/acs"
 
-workspace/adr:
-  - "Workspace\\s*adr"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/adr:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/adr"
 
-workspace/agent-forge:
-  - "Workspace\\s*agent-forge"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/agent-forge:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/agent-forge"
 
-workspace/airbrake:
-  - "Workspace\\s*airbrake"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/airbrake:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/airbrake"
 
-workspace/allure:
-  - "Workspace\\s*allure"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/allure:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/allure"
 
-workspace/amplication:
-  - "Workspace\\s*amplication"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/amplication:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/amplication"
 
-workspace/analytics:
-  - "Workspace\\s*analytics"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/analytics:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/analytics"
 
-workspace/announcements:
-  - "Workspace\\s*announcements"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/announcements:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/announcements"
 
-workspace/apache-airflow:
-  - "Workspace\\s*apache-airflow"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/apache-airflow:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/apache-airflow"
 
-workspace/apollo-explorer:
-  - "Workspace\\s*apollo-explorer"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/apollo-explorer:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/apollo-explorer"
 
-workspace/azure-devops:
-  - "Workspace\\s*azure-devops"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/azure-devops:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/azure-devops"
 
-workspace/azure-resources:
-  - "Workspace\\s*azure-resources"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/azure-resources:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/azure-resources"
 
-workspace/azure-sites:
-  - "Workspace\\s*azure-sites"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/azure-sites:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/azure-sites"
 
-workspace/azure-storage-explorer:
-  - "Workspace\\s*azure-storage-explorer"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/azure-storage-explorer:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/azure-storage-explorer"
 
-workspace/badges:
-  - "Workspace\\s*badges"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/badges:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/badges"
 
-workspace/bazaar:
-  - "Workspace\\s*bazaar"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/bazaar:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/bazaar"
 
-workspace/bitbucket-pull-requests:
-  - "Workspace\\s*bitbucket-pull-requests"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/bitbucket-pull-requests:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/bitbucket-pull-requests"
 
-workspace/bitrise:
-  - "Workspace\\s*bitrise"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/bitrise:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/bitrise"
 
-workspace/blackduck:
-  - "Workspace\\s*blackduck"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/blackduck:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/blackduck"
 
-workspace/bookmarks:
-  - "Workspace\\s*bookmarks"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/bookmarks:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/bookmarks"
 
-workspace/cicd-statistics:
-  - "Workspace\\s*cicd-statistics"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/cicd-statistics:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/cicd-statistics"
 
-workspace/cloudbuild:
-  - "Workspace\\s*cloudbuild"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/cloudbuild:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/cloudbuild"
 
-workspace/code-climate:
-  - "Workspace\\s*code-climate"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/code-climate:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/code-climate"
 
-workspace/code-coverage:
-  - "Workspace\\s*code-coverage"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/code-coverage:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/code-coverage"
 
-workspace/codescene:
-  - "Workspace\\s*codescene"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/codescene:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/codescene"
 
-workspace/confluence:
-  - "Workspace\\s*confluence"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/confluence:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/confluence"
 
-workspace/copilot:
-  - "Workspace\\s*copilot"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/copilot:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/copilot"
 
-workspace/cost-insights:
-  - "Workspace\\s*cost-insights"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/cost-insights:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/cost-insights"
 
-workspace/dynatrace:
-  - "Workspace\\s*dynatrace"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/dynatrace:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/dynatrace"
 
-workspace/entity-feedback:
-  - "Workspace\\s*entity-feedback"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/entity-feedback:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/entity-feedback"
 
-workspace/entity-validation:
-  - "Workspace\\s*entity-validation"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/entity-validation:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/entity-validation"
 
-workspace/explore:
-  - "Workspace\\s*explore"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/explore:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/explore"
 
-workspace/feedback:
-  - "Workspace\\s*feedback"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/feedback:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/feedback"
 
-workspace/firehydrant:
-  - "Workspace\\s*firehydrant"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/firehydrant:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/firehydrant"
 
-workspace/flux:
-  - "Workspace\\s*flux"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/flux:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/flux"
 
-workspace/fossa:
-  - "Workspace\\s*fossa"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/fossa:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/fossa"
 
-workspace/gcalendar:
-  - "Workspace\\s*gcalendar"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/gcalendar:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/gcalendar"
 
-workspace/gcp-projects:
-  - "Workspace\\s*gcp-projects"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/gcp-projects:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/gcp-projects"
 
-workspace/git-release-manager:
-  - "Workspace\\s*git-release-manager"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/git-release-manager:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/git-release-manager"
 
-workspace/github-actions:
-  - "Workspace\\s*github-actions"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/github-actions:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/github-actions"
 
-workspace/github-deployments:
-  - "Workspace\\s*github-deployments"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/github-deployments:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/github-deployments"
 
-workspace/github-discussions:
-  - "Workspace\\s*github-discussions"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/github-discussions:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/github-discussions"
 
-workspace/github-issues:
-  - "Workspace\\s*github-issues"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/github-issues:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/github-issues"
 
-workspace/github-pull-requests-board:
-  - "Workspace\\s*github-pull-requests-board"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/github-pull-requests-board:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/github-pull-requests-board"
 
-workspace/gitops-profiles:
-  - "Workspace\\s*gitops-profiles"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/gitops-profiles:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/gitops-profiles"
 
-workspace/gocd:
-  - "Workspace\\s*gocd"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/gocd:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/gocd"
 
-workspace/grafana:
-  - "Workspace\\s*grafana"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/grafana:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/grafana"
 
-workspace/graphiql:
-  - "Workspace\\s*graphiql"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/graphiql:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/graphiql"
 
-workspace/graphql-voyager:
-  - "Workspace\\s*graphql-voyager"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/graphql-voyager:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/graphql-voyager"
 
-workspace/ilert:
-  - "Workspace\\s*ilert"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/ilert:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/ilert"
 
-workspace/jaeger:
-  - "Workspace\\s*jaeger"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/jaeger:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/jaeger"
 
-workspace/jenkins:
-  - "Workspace\\s*jenkins"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/jenkins:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/jenkins"
 
-workspace/jfrog-artifactory:
-  - "Workspace\\s*jfrog-artifactory"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/jfrog-artifactory:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/jfrog-artifactory"
 
-workspace/kafka:
-  - "Workspace\\s*kafka"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/kafka:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/kafka"
 
-workspace/keycloak:
-  - "Workspace\\s*keycloak"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/keycloak:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/keycloak"
 
-workspace/kiali:
-  - "Workspace\\s*kiali"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/kiali:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/kiali"
 
-workspace/lighthouse:
-  - "Workspace\\s*lighthouse"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/lighthouse:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/lighthouse"
 
-workspace/linguist:
-  - "Workspace\\s*linguist"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/linguist:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/linguist"
 
-workspace/linkerd:
-  - "Workspace\\s*linkerd"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/linkerd:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/linkerd"
 
-workspace/manage:
-  - "Workspace\\s*manage"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/manage:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/manage"
 
-workspace/mcp-chat:
-  - "Workspace\\s*mcp-chat"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/mcp-chat:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/mcp-chat"
 
-workspace/mend:
-  - "Workspace\\s*mend"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/mend:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/mend"
 
-workspace/microsoft-calendar:
-  - "Workspace\\s*microsoft-calendar"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/microsoft-calendar:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/microsoft-calendar"
 
-workspace/mta:
-  - "Workspace\\s*mta"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/mta:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/mta"
 
-workspace/multi-source-security-viewer:
-  - "Workspace\\s*multi-source-security-viewer"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/multi-source-security-viewer:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/multi-source-security-viewer"
 
-workspace/newrelic:
-  - "Workspace\\s*newrelic"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/newrelic:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/newrelic"
 
-workspace/nexus-repository-manager:
-  - "Workspace\\s*nexus-repository-manager"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/nexus-repository-manager:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/nexus-repository-manager"
 
-workspace/nomad:
-  - "Workspace\\s*nomad"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/nomad:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/nomad"
 
-workspace/npm:
-  - "Workspace\\s*npm"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/npm:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/npm"
 
-workspace/ocm:
-  - "Workspace\\s*ocm"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/ocm:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/ocm"
 
-workspace/octopus-deploy:
-  - "Workspace\\s*octopus-deploy"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/octopus-deploy:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/octopus-deploy"
 
-workspace/opencost:
-  - "Workspace\\s*opencost"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/opencost:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/opencost"
 
-workspace/periskop:
-  - "Workspace\\s*periskop"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/periskop:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/periskop"
 
-workspace/pingidentity:
-  - "Workspace\\s*pingidentity"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/pingidentity:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/pingidentity"
 
-workspace/playlist:
-  - "Workspace\\s*playlist"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/playlist:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/playlist"
 
-workspace/puppetdb:
-  - "Workspace\\s*puppetdb"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/puppetdb:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/puppetdb"
 
-workspace/quay:
-  - "Workspace\\s*quay"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/quay:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/quay"
 
-workspace/rbac:
-  - "Workspace\\s*rbac"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/rbac:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/rbac"
 
-workspace/redhat-argocd:
-  - "Workspace\\s*redhat-argocd"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/redhat-argocd:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/redhat-argocd"
 
-workspace/report-portal:
-  - "Workspace\\s*report-portal"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/report-portal:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/report-portal"
 
-workspace/rollbar:
-  - "Workspace\\s*rollbar"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/rollbar:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/rollbar"
 
-workspace/scaffolder-backend-module-annotator:
-  - "Workspace\\s*scaffolder-backend-module-annotator"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-annotator:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-annotator"
 
-workspace/scaffolder-backend-module-kubernetes:
-  - "Workspace\\s*scaffolder-backend-module-kubernetes"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-kubernetes:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-kubernetes"
 
-workspace/scaffolder-backend-module-regex:
-  - "Workspace\\s*scaffolder-backend-module-regex"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-regex:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-regex"
 
-workspace/scaffolder-backend-module-servicenow:
-  - "Workspace\\s*scaffolder-backend-module-servicenow"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-servicenow:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-servicenow"
 
-workspace/scaffolder-backend-module-sonarqube:
-  - "Workspace\\s*scaffolder-backend-module-sonarqube"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-sonarqube:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-sonarqube"
 
-workspace/scaffolder-relation-processor:
-  - "Workspace\\s*scaffolder-relation-processor"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-relation-processor:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-relation-processor"
 
-workspace/sentry:
-  - "Workspace\\s*sentry"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/sentry:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/sentry"
 
-workspace/servicenow:
-  - "Workspace\\s*servicenow"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/servicenow:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/servicenow"
 
-workspace/shortcuts:
-  - "Workspace\\s*shortcuts"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/shortcuts:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/shortcuts"
 
-workspace/sonarqube:
-  - "Workspace\\s*sonarqube"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/sonarqube:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/sonarqube"
 
-workspace/splunk:
-  - "Workspace\\s*splunk"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/splunk:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/splunk"
 
-workspace/stack-overflow:
-  - "Workspace\\s*stack-overflow"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/stack-overflow:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/stack-overflow"
 
-workspace/stackstorm:
-  - "Workspace\\s*stackstorm"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/stackstorm:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/stackstorm"
 
-workspace/tech-insights:
-  - "Workspace\\s*tech-insights"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/tech-insights:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/tech-insights"
 
-workspace/tech-radar:
-  - "Workspace\\s*tech-radar"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/tech-radar:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/tech-radar"
 
-workspace/tekton:
-  - "Workspace\\s*tekton"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/tekton:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/tekton"
 
-workspace/todo:
-  - "Workspace\\s*todo"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/todo:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/todo"
 
-workspace/topology:
-  - "Workspace\\s*topology"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/topology:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/topology"
 
-workspace/vault:
-  - "Workspace\\s*vault"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/vault:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/vault"
 
-workspace/wheel-of-names:
-  - "Workspace\\s*wheel-of-names"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/wheel-of-names:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/wheel-of-names"
 
-workspace/xcmetrics:
-  - "Workspace\\s*xcmetrics"
+workspace//home/runner/work/community-plugins/community-plugins/workspaces/xcmetrics:
+  - "Workspace\\s*/home/runner/work/community-plugins/community-plugins/workspaces/xcmetrics"
 
 needs-triaging:
   - "Workspace\\s*Select a workspace..."

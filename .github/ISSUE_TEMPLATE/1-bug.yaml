@@ -13,110 +13,196 @@ body:
       label: Workspace
       options:
         - Select a workspace...
-        - 3scale
-        - acr
-        - acs
-        - adr
-        - agent-forge
-        - airbrake
-        - allure
-        - amplication
-        - analytics
-        - announcements
-        - apache-airflow
-        - apollo-explorer
-        - azure-devops
-        - azure-resources
-        - azure-sites
-        - azure-storage-explorer
-        - badges
-        - bazaar
-        - bitbucket-pull-requests
-        - bitrise
-        - blackduck
-        - bookmarks
-        - cicd-statistics
-        - cloudbuild
-        - code-climate
-        - code-coverage
-        - codescene
-        - confluence
-        - copilot
-        - cost-insights
-        - dynatrace
-        - entity-feedback
-        - entity-validation
-        - explore
-        - feedback
-        - firehydrant
-        - flux
-        - fossa
-        - gcalendar
-        - gcp-projects
-        - git-release-manager
-        - github-actions
-        - github-deployments
-        - github-discussions
-        - github-issues
-        - github-pull-requests-board
-        - gitops-profiles
-        - gocd
-        - grafana
-        - graphiql
-        - graphql-voyager
-        - ilert
-        - jaeger
-        - jenkins
-        - jfrog-artifactory
-        - kafka
-        - keycloak
-        - kiali
-        - lighthouse
-        - linguist
-        - linkerd
-        - manage
-        - mcp-chat
-        - mend
-        - microsoft-calendar
-        - mta
-        - multi-source-security-viewer
-        - newrelic
-        - nexus-repository-manager
-        - nomad
-        - npm
-        - ocm
-        - octopus-deploy
-        - opencost
-        - periskop
-        - pingidentity
-        - playlist
-        - puppetdb
-        - quay
-        - rbac
-        - redhat-argocd
-        - report-portal
-        - rollbar
-        - scaffolder-backend-module-annotator
-        - scaffolder-backend-module-kubernetes
-        - scaffolder-backend-module-regex
-        - scaffolder-backend-module-servicenow
-        - scaffolder-backend-module-sonarqube
-        - scaffolder-relation-processor
-        - sentry
-        - servicenow
-        - shortcuts
-        - sonarqube
-        - splunk
-        - stack-overflow
-        - stackstorm
-        - tech-insights
-        - tech-radar
-        - tekton
-        - todo
-        - topology
-        - vault
-        - wheel-of-names
-        - xcmetrics
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/3scale
+        - /home/runner/work/community-plugins/community-plugins/workspaces/acr
+        - /home/runner/work/community-plugins/community-plugins/workspaces/acs
+        - /home/runner/work/community-plugins/community-plugins/workspaces/adr
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/agent-forge
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/airbrake
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/allure
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/amplication
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/analytics
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/announcements
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/apache-airflow
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/apollo-explorer
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/azure-devops
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/azure-resources
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/azure-sites
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/azure-storage-explorer
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/badges
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/bazaar
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/bitbucket-pull-requests
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/bitrise
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/blackduck
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/bookmarks
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/cicd-statistics
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/cloudbuild
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/code-climate
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/code-coverage
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/codescene
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/confluence
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/copilot
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/cost-insights
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/dynatrace
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/entity-feedback
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/entity-validation
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/explore
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/feedback
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/firehydrant
+        - /home/runner/work/community-plugins/community-plugins/workspaces/flux
+        - /home/runner/work/community-plugins/community-plugins/workspaces/fossa
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/gcalendar
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/gcp-projects
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/git-release-manager
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/github-actions
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/github-deployments
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/github-discussions
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/github-issues
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/github-pull-requests-board
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/gitops-profiles
+        - /home/runner/work/community-plugins/community-plugins/workspaces/gocd
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/grafana
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/graphiql
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/graphql-voyager
+        - /home/runner/work/community-plugins/community-plugins/workspaces/ilert
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/jaeger
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/jenkins
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/jfrog-artifactory
+        - /home/runner/work/community-plugins/community-plugins/workspaces/kafka
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/keycloak
+        - /home/runner/work/community-plugins/community-plugins/workspaces/kiali
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/lighthouse
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/linguist
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/linkerd
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/manage
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/mcp-chat
+        - /home/runner/work/community-plugins/community-plugins/workspaces/mend
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/microsoft-calendar
+        - /home/runner/work/community-plugins/community-plugins/workspaces/mta
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/multi-source-security-viewer
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/newrelic
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/nexus-repository-manager
+        - /home/runner/work/community-plugins/community-plugins/workspaces/nomad
+        - /home/runner/work/community-plugins/community-plugins/workspaces/npm
+        - /home/runner/work/community-plugins/community-plugins/workspaces/ocm
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/octopus-deploy
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/opencost
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/periskop
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/pingidentity
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/playlist
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/puppetdb
+        - /home/runner/work/community-plugins/community-plugins/workspaces/quay
+        - /home/runner/work/community-plugins/community-plugins/workspaces/rbac
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/redhat-argocd
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/report-portal
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/rollbar
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-annotator
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-kubernetes
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-regex
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-servicenow
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-backend-module-sonarqube
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/scaffolder-relation-processor
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/sentry
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/servicenow
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/shortcuts
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/sonarqube
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/splunk
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/stack-overflow
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/stackstorm
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/tech-insights
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/tech-radar
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/tekton
+        - /home/runner/work/community-plugins/community-plugins/workspaces/todo
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/topology
+        - /home/runner/work/community-plugins/community-plugins/workspaces/vault
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/wheel-of-names
+        - >-
+          /home/runner/work/community-plugins/community-plugins/workspaces/xcmetrics
       default: 0
     validations:
       required: true
