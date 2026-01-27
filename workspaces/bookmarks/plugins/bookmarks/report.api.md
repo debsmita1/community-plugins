@@ -44,7 +44,7 @@ title?: string | undefined;
 path?: string | undefined;
 group?: string | false | undefined;
 };
-output: ExtensionDataRef<JSX_2.Element, "core.reactElement", {}> | ExtensionDataRef<string, "core.routing.path", {}> | ExtensionDataRef<RouteRef<AnyRouteRefParams>, "core.routing.ref", {
+output: ExtensionDataRef<string, "core.routing.path", {}> | ExtensionDataRef<JSX_2.Element, "core.reactElement", {}> | ExtensionDataRef<RouteRef<AnyRouteRefParams>, "core.routing.ref", {
 optional: true;
 }> | ExtensionDataRef<(entity: Entity) => boolean, "catalog.entity-filter-function", {
 optional: true;
@@ -60,7 +60,7 @@ path: string;
 defaultTitle?: [Error: `Use the 'title' param instead`];
 title: string;
 defaultGroup?: [Error: `Use the 'group' param instead`];
-group?: ("overview" | "documentation" | "development" | "deployment" | "operation" | "observability") | (string & {});
+group?: ("development" | "overview" | "documentation" | "deployment" | "operation" | "observability") | (string & {});
 loader: () => Promise<JSX.Element>;
 routeRef?: RouteRef;
 filter?: string | EntityPredicate | ((entity: Entity) => boolean);
