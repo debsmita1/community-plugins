@@ -13,16 +13,53 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { createFrontendPlugin } from '@backstage/frontend-plugin-api';
+import {
+  createFrontendPlugin,
+  createFrontendModule,
+} from '@backstage/frontend-plugin-api';
 import { EntityContentBlueprint } from '@backstage/plugin-catalog-react/alpha';
+import { TranslationBlueprint } from '@backstage/plugin-app-react';
+import { tektonTranslations } from './translations/index.ts';
+import {
+  kubernetesClustersReadPermission,
+  kubernetesResourcesReadPermission,
+} from '@backstage/plugin-kubernetes-common';
+import { isTektonCIAvailable } from './utils/isTektonCIAvailable.ts';
 
 const tektonEntityContent = EntityContentBlueprint.make({
   name: 'tektonEntityContent',
   params: {
-    path: '/tekton',
-    title: 'Tekton',
+    path: '/ci-cd',
+    title: 'CI/CD',
+    filter: isTektonCIAvailable,
     loader: () => import('./components/Router').then(m => <m.Router />),
   },
+  if: {
+    $all: [
+      {
+        permissions: { $contains: kubernetesResourcesReadPermission.name },
+      },
+      {
+        permissions: { $contains: kubernetesClustersReadPermission.name },
+      },
+    ],
+  },
+});
+
+/**
+ * Translation module for the Tekton plugin (NFS).
+ * @alpha
+ */
+export const tektonTranslationsModule = createFrontendModule({
+  pluginId: 'app',
+  extensions: [
+    TranslationBlueprint.make({
+      name: 'tekton-translations',
+      params: {
+        resource: tektonTranslations,
+      },
+    }),
+  ],
 });
 
 /**

@@ -1,6 +1,21 @@
 app:
   title: Scaffolded Backstage App
   baseUrl: http://localhost:3000
+  packages: all
+
+  extensions:
+    - api:app/app-language:
+        config:
+          availableLanguages: ['en', 'de', 'es', 'fr', 'it', 'ja']
+          defaultLanguage: 'en'
+    - nav-item:catalog:
+        config:
+          title: Home
+
+    - page:catalog:
+        config:
+          path: /
+          title: Home
 
 organization:
   name: My Company

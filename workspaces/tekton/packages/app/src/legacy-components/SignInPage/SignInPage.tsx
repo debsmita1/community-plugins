@@ -13,10 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import type { ReactElement } from 'react';
+import { SignInPage as CCSignInPage } from '@backstage/core-components';
+import {
+  githubAuthApiRef,
+  type SignInPageProps,
+} from '@backstage/core-plugin-api';
 
-import '@backstage/cli/asset-types';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import '@backstage/ui/css/styles.css';
-
-ReactDOM.createRoot(document.getElementById('root')!).render(App.createRoot());
+export function SignInPage(props: SignInPageProps): ReactElement {
+  return (
+    <CCSignInPage
+      {...props}
+      auto
+      providers={[
+        'guest',
+        {
+          id: 'github-auth-provider',
+          title: 'GitHub',
+          message: 'Sign in using GitHub',
+          apiRef: githubAuthApiRef,
+        },
+      ]}
+    />
+  );
+}
