@@ -13,11 +13,20 @@ import { ExtensionInput } from '@backstage/frontend-plugin-api';
 import { FrontendModule } from '@backstage/frontend-plugin-api';
 import { IconElement } from '@backstage/frontend-plugin-api';
 import { JSX as JSX_2 } from 'react';
+import { JSX as JSX_3 } from 'react/jsx-runtime';
+import { NavContentComponent } from '@backstage/plugin-app-react';
 import { OverridableExtensionDefinition } from '@backstage/frontend-plugin-api';
 import { OverridableFrontendPlugin } from '@backstage/frontend-plugin-api';
 import { RouteRef } from '@backstage/frontend-plugin-api';
 import { TranslationRef } from '@backstage/frontend-plugin-api';
 import { TranslationResource } from '@backstage/frontend-plugin-api';
+
+// @alpha
+export function AuthorizedRbacNavItem(props: {
+  href: string;
+  title: string;
+  icon: IconElement;
+}): JSX_3.Element | null;
 
 // @alpha
 const _default: OverridableFrontendPlugin<
@@ -135,6 +144,26 @@ const _default: OverridableFrontendPlugin<
   }
 >;
 export default _default;
+
+// @alpha
+export const rbacNavContent: OverridableExtensionDefinition<{
+  kind: 'nav-content';
+  name: 'rbac-authorized';
+  config: {};
+  configInput: {};
+  output: ExtensionDataRef<
+    NavContentComponent,
+    'core.nav-content.component',
+    {}
+  >;
+  inputs: {};
+  params: {
+    component: NavContentComponent;
+  };
+}>;
+
+// @alpha
+export const rbacNavModule: FrontendModule;
 
 // @public
 export const rbacTranslationRef: TranslationRef<

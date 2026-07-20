@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 The Backstage Authors
+ * Copyright 2026 The Backstage Authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +14,28 @@
  * limitations under the License.
  */
 import { SidebarItem } from '@backstage/core-components';
-
-import { default as RbacIcon } from '@mui/icons-material/VpnKeyOutlined';
+import { IconElement } from '@backstage/frontend-plugin-api';
 
 import { useRbacAuthorization } from '../hooks/useRbacAuthorization';
 
-export const Administration = () => {
+/**
+ * Renders a sidebar nav item for the RBAC page only when the user is
+ * authorized via the RBAC backend (conditional resource permission check).
+ *
+ * @alpha
+ */
+export function AuthorizedRbacNavItem(props: {
+  href: string;
+  title: string;
+  icon: IconElement;
+}) {
   const { isAuthorized } = useRbacAuthorization();
 
-  if (isAuthorized) {
-    return <SidebarItem text="RBAC" to="rbac" icon={RbacIcon} />;
+  if (!isAuthorized) {
+    return null;
   }
-  return null;
-};
+
+  return (
+    <SidebarItem to={props.href} text={props.title} icon={() => props.icon} />
+  );
+}

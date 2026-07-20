@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import rbacPlugin from '.';
+import rbacPlugin, { rbacNavModule } from '.';
 
 describe('RBAC plugin Alpha', () => {
   describe('Plugin Structure', () => {
@@ -25,6 +25,11 @@ describe('RBAC plugin Alpha', () => {
 
     it('should export rbac page extension', () => {
       expect(rbacPlugin.getExtension('page:rbac')).toBeDefined();
+    });
+
+    it('should export auth-aware nav module for the app plugin', () => {
+      expect(rbacNavModule).toBeDefined();
+      expect(rbacNavModule.$$type).toBe('@backstage/FrontendModule');
     });
   });
 });

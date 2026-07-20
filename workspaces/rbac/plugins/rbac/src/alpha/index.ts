@@ -57,4 +57,7 @@ const rbacTranslationsModule = createFrontendModule({
 
 export { rbacTranslationsModule };
 
+export { rbacNavModule, rbacNavContent } from './nav';
+export { AuthorizedRbacNavItem } from './AuthorizedRbacNavItem';
+
 export { rbacTranslationRef, rbacTranslations } from './translations';

@@ -41,6 +41,8 @@ import {
   SidebarSignOutButton,
 } from '@backstage/dev-utils';
 
+import { AuthorizedRbacNavItem } from '../../src/alpha/AuthorizedRbacNavItem';
+
 function ThemeIcon({
   active,
   icon,
@@ -126,9 +128,21 @@ function SidebarThemeSwitcher() {
 export const devSidebarContent = NavContentBlueprint.make({
   params: {
     component: ({ navItems }) => {
-      const nav = navItems.withComponent(item => (
-        <SidebarItem icon={() => item.icon} to={item.href} text={item.title} />
-      ));
+      const nav = navItems.withComponent(item =>
+        item.node.spec.id === 'page:rbac' ? (
+          <AuthorizedRbacNavItem
+            href={item.href}
+            title={item.title}
+            icon={item.icon}
+          />
+        ) : (
+          <SidebarItem
+            icon={() => item.icon}
+            to={item.href}
+            text={item.title}
+          />
+        ),
+      );
       return (
         <Sidebar>
           <SidebarGroup label="Menu">

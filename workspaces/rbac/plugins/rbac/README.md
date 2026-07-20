@@ -104,12 +104,17 @@ If you're using Backstage's new frontend system, add the plugin to your app:
 
 ```tsx
 // packages/app/src/App.tsx
-import rbacPlugin from '@backstage-community/plugin-rbac/alpha';
+import rbacPlugin, {
+  rbacNavModule,
+} from '@backstage-community/plugin-rbac/alpha';
 
 export default createApp({
   features: [
     // ...other plugins
     rbacPlugin,
+    // Gates the RBAC sidebar item via the RBAC authorize API
+    // (resource permissions cannot use extension `if` predicates).
+    rbacNavModule,
   ],
 });
 ```
@@ -117,7 +122,24 @@ export default createApp({
 The plugin will automatically provide:
 
 - RBAC at `/rbac` with all the existing features
-- A "RBAC" navigation item in the sidebar
+- A "RBAC" navigation item in the sidebar, shown only when
+  `GET /api/permission/` reports the user as authorized
+
+`rbacNavModule` installs an app `nav-content` that keeps discovered page
+nav items, but renders the RBAC entry through an auth-aware component.
+If your app already provides custom nav content, skip `rbacNavModule`
+and render `AuthorizedRbacNavItem` for `page:rbac` instead:
+
+```tsx
+import { AuthorizedRbacNavItem } from '@backstage-community/plugin-rbac/alpha';
+
+// inside your NavContentBlueprint component:
+item.node.spec.id === 'page:rbac' ? (
+  <AuthorizedRbacNavItem href={item.href} title={item.title} icon={item.icon} />
+) : (
+  <SidebarItem icon={() => item.icon} to={item.href} text={item.title} />
+);
+```
 
 ### Extensions
 
@@ -126,7 +148,7 @@ The following extensions are available in the plugin:
 - `api:rbac`
 - `api:rbac/licensed-users`
 - `page:rbac`
-- `nav-item:rbac`
+- `nav-content:app/rbac-authorized` (via `rbacNavModule`)
 
 ### Configure plugins with permission
 

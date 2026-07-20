@@ -73,6 +73,11 @@ const mockRbacApiRef = jest.fn();
 
 describe('RBAC component', () => {
   beforeEach(() => {
+    useAsyncMockResult = {
+      loading: false,
+      value: { status: 'Authorized' },
+    };
+    configMock.getOptionalBoolean.mockReturnValue(true);
     mockGetUserAuthorization.mockClear();
     mockUseApi.mockClear();
     mockRbacApiRef.mockClear();
